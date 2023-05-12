@@ -16,6 +16,7 @@ add_executable(TEST ${sources})
 target_link_libraries(TEST PUBLIC
     Animal
     Dog
+    Cat
     gtest_main
     gmock
 )

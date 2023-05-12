@@ -5,5 +5,5 @@ std::string Dog::speak() const {
 }
 
 int Dog::speed() const {
-    return 48;
+    return 60;
 }
