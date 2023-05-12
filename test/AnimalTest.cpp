@@ -2,6 +2,7 @@
 #include "Animal.hpp"
 #include "Dog.hpp"
 #include "Cat.hpp"
+#include "Human.hpp"
 
 TEST(initialTests, GetterTest){
     Animal dog{"Rafa"};
@@ -47,3 +48,9 @@ TEST(fullAnimalTest, catTest){
     ASSERT_TRUE(48==cat.speed());
 }
 
+TEST(fullAnimalTest, humanTest){
+    Human human{"Conan"};
+    ASSERT_TRUE("YippeeKiYay"==human.speak());
+    ASSERT_TRUE("Conan"==human.getName());
+    ASSERT_TRUE(18==human.speed());
+}
