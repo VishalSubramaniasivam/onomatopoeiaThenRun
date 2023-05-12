@@ -9,10 +9,12 @@ add_subdirectory(googletest)
 
 set(sources
     main.cpp
+    AnimalTest.cpp
 )
 
-add_executable(TEST ${source})
+add_executable(TEST ${sources})
 target_link_libraries(TEST PUBLIC
+    Animal
     gtest_main
     gmock
 )
