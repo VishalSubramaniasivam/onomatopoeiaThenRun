@@ -3,6 +3,7 @@
 #include "Dog.hpp"
 #include "Cat.hpp"
 #include "Human.hpp"
+#include "Ant.hpp"
 
 TEST(initialTests, GetterTest){
     Animal dog{"Rafa"};
@@ -53,4 +54,11 @@ TEST(fullAnimalTest, humanTest){
     ASSERT_TRUE("YippeeKiYay"==human.speak());
     ASSERT_TRUE("Conan"==human.getName());
     ASSERT_TRUE(18==human.speed());
+}
+
+TEST(fullAnimalTest, antTest){
+    Ant ant{"Carbon"};
+    ASSERT_TRUE("Sizz"==ant.speak());
+    ASSERT_TRUE("Carbon"==ant.getName());
+    ASSERT_TRUE(3==ant.speed());
 }

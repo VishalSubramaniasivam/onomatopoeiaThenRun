@@ -18,6 +18,7 @@ target_link_libraries(TEST PUBLIC
     Dog
     Cat
     Human
+    Ant
     gtest_main
     gmock
 )
