@@ -15,6 +15,7 @@ set(sources
 add_executable(TEST ${sources})
 target_link_libraries(TEST PUBLIC
     Animal
+    Dog
     gtest_main
     gmock
 )

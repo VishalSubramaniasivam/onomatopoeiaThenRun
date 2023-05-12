@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <string_view>
 
@@ -11,4 +12,6 @@ public:
     {
     }
     const std::string& getName() const;
+    virtual std::string speak() const;
+    virtual int speed() const;
 };
