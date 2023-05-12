@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall CMakeFiles/TEST.dir/main.cpp.o CMakeFiles/TEST.dir/AnimalTest.cpp.o -o TEST  ../src/Animal/libAnimal.a ../src/Dog/libDog.a ../src/Cat/libCat.a ../src/Human/libHuman.a ../src/Ant/libAnt.a ../lib/libgtest_main.a ../lib/libgmock.a ../src/Animal/libAnimal.a ../lib/libgtest.a 

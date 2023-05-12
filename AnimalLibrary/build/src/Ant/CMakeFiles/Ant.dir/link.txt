@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAnt.a CMakeFiles/Ant.dir/Ant.cpp.o
+/usr/bin/ranlib libAnt.a
